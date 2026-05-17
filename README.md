@@ -28,10 +28,13 @@ Analysis of near-Earth asteroids based on NASA API data, including hazard filter
 ## Основні висновки
 
 - Найбільші астероїди не завжди мають найвищий risk score.
+   ![Repeated Approaches](risk_score.png)
 - Розмір астероїда має слабку кореляцію зі швидкістю та absolute magnitude.
-  
-- Для частини астероїдів спостерігаються повторні зближення із Землею на різній дистанції.
+  ![Correlation Heatmap](correlation_heatmap.png)
+  - Для частини астероїдів спостерігаються повторні зближення із Землею на різній дистанції.
+  ![Repeated Approaches](repeated_approaches.png)
 - Найбільший вплив на risk score у межах моделі мала дистанція зближення.
+  ![Risk Score](risk_score_plot.png)
 
 ## Результат
 У результаті аналізу було визначено астероїди з найвищим risk score та досліджено взаємозв’язок між дистанцією зближення, швидкістю, розміром і частотою повторних наближень.
